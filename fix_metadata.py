@@ -18,9 +18,9 @@ def p(s):
 
 
 def run_mattwilson1024_google_photos_exif(albumdir, outdir, errdir, check_errdir=True):
-    os.makedirs(albumdir, exist_ok=True)
-    os.makedirs(outdir, exist_ok=True)
-    os.makedirs(errdir, exist_ok=True)
+    #os.makedirs(albumdir, exist_ok=True)
+    #os.makedirs(outdir, exist_ok=True)
+    #os.makedirs(errdir, exist_ok=True)
 
     sh(
         [
